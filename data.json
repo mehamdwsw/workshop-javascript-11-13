@@ -1,0 +1,16 @@
+
+[
+  {
+    "id": 1,
+    "name": "Alex HMorrision",
+    "speciality": "Senior Journalist",
+    "rating": 4.8,
+    "image": "https://intranet.youcode.ma/storage/users/profile/thumbnail/1884-1760996517.png",
+    "bio": "Passionnée par le code et la création d’expériences web modernes.",
+    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "rate": 45,
+    "Statut": "disponibilité",
+    "massage_my":["hi ", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Volvo", "BMW"],
+    "message_her":["good", "Volvo", "10","kil"]    
+  }
+]

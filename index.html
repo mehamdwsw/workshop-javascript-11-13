@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Gestion des Squads</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+
+
+        </ul>
+        <div id="formulaire">
+          <form class="d-flex" role="search">
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo">Ajouter un apprenant</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- card -->
+  <section>
+    <div class="container">
+      <div class="row gx-1 ">
+
+        <div id="prefail" class="col-md-6  col">
+          <!-- prefail -->
+          
+          <!-- prefail -->
+          
+          <!-- prefail -->
+        </div>
+
+        <div class="col ">
+          <div class="container">
+            <div class="container text-center">
+              <div class="row">
+                <div id="Affichage Squad 1" class="col">
+                  <!-- Squad 1 -->
+                  <h6>Squad-1</h6>
+                </div>
+                <div id="Affichage Squad 2" class="col">
+                  <!-- Squad 2 -->
+                   <h6>Squad-2</h6>
+                </div>
+                <div id="Affichage Squad 3" class="col">
+                  <!-- Squad 3 -->
+                   <h6>Squad-3</h6>
+                </div>
+                <div id="Affichage Squad 4" class="col">
+                  <!-- Squad 3 -->
+                   <h6>Squad-4</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- --------------------------------------------------------------- -->
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="d-grid gap-2">
+                <button id="Squad 1" data-bs-dismiss="modal" class="btn btn-primary" type="button">Squad 1</button>
+                <button id="Squad 2" data-bs-dismiss="modal" class="btn btn-primary" type="button">Squad 2</button>
+                <button id="Squad 3" data-bs-dismiss="modal" class="btn btn-primary" type="button">Squad 3</button>
+                <button id="Squad 4" data-bs-dismiss="modal" class="btn btn-primary" type="button">Squad 4</button>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------------------------------------- -->
+  </section>
+  <!-- formulaire -->
+  <!-- ---------------- -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">label </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <!-- Nom -->
+            <div class="mb-3">
+              <label for="disabledTextInput" class="form-label">Nom</label>
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="Nom">
+            </div>
+            <!-- Prénom -->
+            <div class="mb-3">
+              <label for="disabledTextInput" class="form-label">Prénom</label>
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="Prénom">
+            </div>
+            <!-- email -->
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email"
+                aria-describedby="emailHelp">
+            </div>
+            <!-- Âge -->
+            <div class="mb-3">
+              <label for="disabledTextInput" class="form-label">Âge</label>
+              <input type="nombre" id="disabledTextInput" class="form-control" placeholder="Âge">
+            </div>
+            <!-- URL Photo -->
+            <div class="mb-3">
+              <label for="disabledTextInput" class="form-label">URL Photo</label>
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="URL Photo">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+
+        <!-- ------------- -->
+        <!-- --------------------------------------------------------------- -->
+        <!-- ---------------- -->
+
+
+        <!-- ------------- -->
+
+
+
+
+
+        <script src="script.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
